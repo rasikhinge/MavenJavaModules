@@ -1,5 +1,6 @@
 module JokesApp {
     requires JokeServer;
-    requires KidsJokeServer;
-    requires ProgrammerJokeServer;
+//    requires KidsJokeServer;
+//    requires ProgrammerJokeServer;
+    uses com.jokeserver.JokeServer;
 }
